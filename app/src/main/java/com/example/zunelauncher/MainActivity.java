@@ -24,12 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        Button ahmedButton = findViewById(R.id.ahmedsFirstButton);
-        ahmedButton.setOnClickListener((View v) -> {
-            Toast.makeText(this, "You clicked me dude.", Toast.LENGTH_SHORT).show();
-        });
-
-        //soghgyh
+//        Button ahmedButton = findViewById(R.id.ahmedsFirstButton);
+//        ahmedButton.setOnClickListener((View v) -> {
+//            Toast.makeText(this, "You clicked me dude.", Toast.LENGTH_SHORT).show();
+//        });
 
     }
 
