@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zune_launcher/home_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,11 +12,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: _themeData(),
-      home: const Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      home: const HomeScreen(),
     );
   }
 
